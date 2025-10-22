@@ -86,7 +86,7 @@ const Slide10 = ({ language }) => {
   const handleViewReferences = () => {
     // ضع هنا اسم ملف الـ PDF داخل مجلد public
     // مثال: /references.pdf or /references-en.pdf and /references-ar.pdf
-    const pdfPath = language === 'ar' ? '/Biosafety-Levels.pdf' : '/Biosafety-Levels.pdf';
+    const pdfPath = language === 'ar' ? '/Biosafety-Levels2.pdf' : '/Biosafety-Levels2.pdf';
     // إذا تستخدم ملف واحد لكل اللغات استعمل: const pdfPath = '/references.pdf';
     window.open(pdfPath, '_blank', 'noopener,noreferrer');
   };
